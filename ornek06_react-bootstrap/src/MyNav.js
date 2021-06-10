@@ -9,8 +9,8 @@ import {
 } from "react-bootstrap";
 import logo from "./img/logo.png";
 
-// !Lokal resimleri gosterilbilmek icin imporrt yontemiyle eklemek gerekiyor. Aksi taktirde resimler gozukmuyor.
-
+// ! Lokal resimleri gosterilbilmek icin imporrt yontemiyle eklemek gerekiyor. 
+// ! Aksi taktirde resimler gozukmuyor. (Harici linklerde problem yok)
 function MyNav() {
   return (
     <div>

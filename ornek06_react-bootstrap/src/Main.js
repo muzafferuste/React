@@ -4,7 +4,7 @@ import { Card, Button, Container, Row, Col } from "react-bootstrap";
 
 function Kart(props) {
   console.log(props);
-  const { text, name, img } = data[props.isim];
+  const { text, name, img } = data[props.indeks];
 
   return (
     <div>
@@ -31,7 +31,7 @@ function Main() {
             md={6}
             lg={4}
           >
-            <Kart isim="0" />
+            <Kart indeks="0" />
           </Col>
           <Col
             className="mb-3 d-flex justify-content-center"
@@ -39,7 +39,7 @@ function Main() {
             md={6}
             lg={4}
           >
-            <Kart isim="1" />
+            <Kart indeks="1" />
           </Col>
           <Col
             className="mb-3 d-flex justify-content-center"
@@ -47,7 +47,7 @@ function Main() {
             md={6}
             lg={4}
           >
-            <Kart isim="2" />
+            <Kart indeks="2" />
           </Col>
         </Row>
       </Container>

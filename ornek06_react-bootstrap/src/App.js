@@ -1,6 +1,6 @@
-import MyNav from "./MyNav";
-import Main from "./Main";
-import Footer from "./Footer";
+import MyNav from "./MyNav.js";
+import Main from "./Main.js";
+import Footer from "./Footer.js";
 import "bootstrap/dist/css/bootstrap.min.css";
 
 function App() {
