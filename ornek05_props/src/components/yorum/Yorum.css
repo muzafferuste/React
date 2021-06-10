@@ -1,5 +1,4 @@
 .yorum-div {
-
   background-color: white;
   border-radius: 10px;
   width: 300px;
@@ -10,7 +9,6 @@ img {
   height: 50%;
   width: 50%;
 }
-
 .yorum-div h1 {
   font-size: 40px;
 }
@@ -18,7 +16,6 @@ img {
   font-size: 30px;
   color: green;
 }
-
 .yorum-div p {
   font-size: 20px;
   color: red;

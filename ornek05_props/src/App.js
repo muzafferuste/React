@@ -1,6 +1,6 @@
-import Header from "./components/header/Header";
-import Footer from "./components/footer/Footer";
-import Yorum from "./components/yorum/Yorum";
+import Header from "./components/header/Header.js";
+import Footer from "./components/footer/Footer.js";
+import Yorum from "./components/yorum/Yorum.js";
 
 function App() {
   return (
