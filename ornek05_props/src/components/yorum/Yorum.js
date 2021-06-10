@@ -1,5 +1,5 @@
 import React from "react";
-import yorumlar from "./data.js";
+import yorumlar from "./Data.js";
 import "./Yorum.css";
 
 function Yorum(props) {
