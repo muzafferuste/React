@@ -18,10 +18,10 @@ function Events() {
   function handleYaz(isim) {
     console.log("Ben " + isim);
   }
-  //?------------------------------------------------------------------
+  //? ------------------------------------------------------------------
   //? SORU: Degistir Butonuna tiklandiginda baslik yazisini EVENTS olarak
   //?       degisitirmesini istiyoruz.
-  //?-------------------------------------------------------------------
+  //? -------------------------------------------------------------------
   //! - Degisikligi log'da gorsek de web sayfasında render edilmez.
   //* - Bunun sebebi REACT icin bu nesnenin hareketli bir nesne olup olmadigini
   //*   bilmemesidir. React minimum DOM islemi icin default olarak nesneleri
@@ -30,7 +30,7 @@ function Events() {
   //? - Bunun için iki yöntem kullanilmaktadir.
   //* 1. Statefull Nesneler kullanmak. Yani state'ler ile degisimi gostermek.
   //* 2. Hooks adi verilen fonksiyonel yaklasimi kullanmak.
-  //?--------------------------------------------------------------------
+  // ? --------------------------------------------------------------------
   function handleDegistir() {
     baslik = "EVENTS";
     console.log(baslik);

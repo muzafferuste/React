@@ -1,4 +1,5 @@
 // React'ın temel kutuphaneleri
+
 import React from "react";
 import ReactDOM from "react-dom";
 

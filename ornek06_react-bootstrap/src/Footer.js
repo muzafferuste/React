@@ -3,7 +3,7 @@ import { Navbar } from "react-bootstrap";
 
 function Footer() {
   return (
-    <div>
+    <div >
       <Navbar
         fixed="bottom"
         fluid

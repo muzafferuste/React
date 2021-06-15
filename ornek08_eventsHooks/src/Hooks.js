@@ -1,6 +1,7 @@
 import React from "react";
 import { useState } from "react";
-//* =========================== HOOKS =====================================
+
+//* =========================== HOOKS ====================================
 //! - Hooklar: Class komponentleri yerine fonksiyonel komponentler ile
 //!   state'leri kullanmamizi saglayan ozel fonksiyonlardır.
 //* - React'a 16.7 versiyonu ile eklenmisitir.
@@ -13,7 +14,7 @@ import { useState } from "react";
 //* 2. Hook’lar Sadece En Üst Seviyede Çağrılır. Bir kontrol
 //*    deyimi veya for gibi bir dongu icersinde cagiralamazlar.
 //* 3. Hook’lar Sadece React Fonksiyonlarından Cagrilir.
-//* =========================================================================
+//* ======================================================================
 
 function Hooks() {
   //* - useState hook'u en yaygin kullanilan hook'lardandir.

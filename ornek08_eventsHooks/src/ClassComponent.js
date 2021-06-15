@@ -8,7 +8,7 @@ import React, { Component } from "react";
 //*   tutar.
 //* - state'e constructor icerisinde this.state ile baslangic degeri atilir.
 //* - constructor dısinda ise sadece setState() metodu ile degeri degistirilir.
-//* ================================================================================
+//* ===============================================================================
 
 class ClassComponent extends Component {
   constructor(props) {
