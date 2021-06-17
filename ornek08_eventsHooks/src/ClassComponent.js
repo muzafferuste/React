@@ -10,7 +10,7 @@ import React, { Component } from "react";
 //* - constructor dısinda ise sadece setState() metodu ile degeri degistirilir.
 //* ===============================================================================
 
-class ClassComponent extends Component {
+export default class ClassComponent extends Component {
   constructor(props) {
     super(props);
     // state'in adi sayac olsun ve baslangic degerine 0 atansin
@@ -47,4 +47,3 @@ class ClassComponent extends Component {
     );
   }
 }
-export default ClassComponent;
