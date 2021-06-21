@@ -10,7 +10,7 @@ import React, { useState, useEffect } from "react";
 //!   veri cekerken kullanimi yaygindir.
 
 function UseEffect01() {
-  const [sayac, setSayac] = useState(0);
+  const [sayac, setSayac, getSayac] = useState(0);
 
   //!- useEffect Hook'u default olarak her render da isletilir.
   //!- Su anki hali componentDidMount() ve bunula beraber
@@ -38,7 +38,7 @@ function UseEffect01() {
 
   useEffect(() => {
     console.log(
-      "ilk render da calisir,sayacin he guncellemesinde caliir, komponet kaldiringinda clean-up yapar."
+      "ilk render da calisir,sayacin her guncellemesinde caliir, komponet kaldiringinda clean-up yapar."
     );
     return () => {
       console.log("cleanup fonksiyonu");
