@@ -8,10 +8,10 @@ function App() {
   return (
     <div className="App">
       {/* <UseEffect01 /> */}
-      <UseEffectFetch />
+      {/* <UseEffectFetch /> */}
       {/* <UseEffectFetchError /> */}
       {/* <UseEffectAxios /> */}
-      {/* <UseEffectFetchTxt /> */}
+      <UseEffectFetchTxt />
     </div>
   );
 }
