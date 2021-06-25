@@ -6,7 +6,7 @@ function Footer() {
     <div >
       <Navbar
         fixed="bottom"
-        fluid
+        fluid=""
         className="justify-content-center bg-dark p-3"
       >
         <p className="text-light">Copyright 2021</p>

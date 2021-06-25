@@ -3,7 +3,6 @@ import data from "./data.js";
 import { Card, Button, Container, Row, Col } from "react-bootstrap";
 
 function Kart(props) {
-  console.log(props);
   const { text, name, img } = data[props.indeks];
 
   return (
