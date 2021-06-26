@@ -27,7 +27,7 @@ function Form01() {
         <input
           className="input"
           type="text"
-          placeholder="adiniz"
+          placeholder="Adiniz:"
           name="ad"
           required
           onChange={adGuncelle}
@@ -36,7 +36,7 @@ function Form01() {
         <input
           className="input"
           type="text"
-          placeholder="soyadiniz"
+          placeholder="Soyadiniz:"
           name="soyad"
           required
           onChange={soyadGuncelle}

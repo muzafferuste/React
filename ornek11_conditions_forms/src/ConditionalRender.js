@@ -48,10 +48,12 @@ function ConditionalRender() {
       </button>
       {/* Shorcut */}
       {/* 1. degisken true ise 2.yi calitirir. */}
-      {goster && <Kart />}
+      {/* {goster && <Kart />} */}
       {/* 1. degisken false ise 2.yi calistirir. */}
       {/* {goster || <Kart />} */}
       {!goster && <Footer />}
+      {/* 1. degisken false ise 2.yi calistirir. */}
+      {/* {goster || <Footer />} */}
       {/* Ternary yontemi */}
       {goster ? (
         <div>

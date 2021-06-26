@@ -4,9 +4,7 @@ import "./Form.css";
 function Form02() {
   const [form, setForm] = useState({ ad: "", soyad: "", mesaj: "" });
 
-  const { ad, soyad, mesaj } = form;
   console.log("FORM", form);
-
   function guncelle(event) {
     const { name, value } = event.target;
     setForm(() => {
@@ -19,9 +17,9 @@ function Form02() {
 
   return (
     <div className="alan">
-      {ad && (
+      {form.ad && (
         <h1>
-          Merhaba {ad} {soyad}
+          Merhaba {form.ad} {form.soyad}
         </h1>
       )}
       <form>
@@ -32,7 +30,7 @@ function Form02() {
           name="ad"
           required
           onChange={guncelle}
-          value={ad}
+          value={form.ad}
         />
         <input
           className="input"
@@ -41,7 +39,7 @@ function Form02() {
           name="soyad"
           required
           onChange={guncelle}
-          value={soyad}
+          value={form.soyad}
         />
         <textarea
           className="input"
@@ -49,7 +47,7 @@ function Form02() {
           id=""
           cols="30"
           rows="10"
-          value={mesaj}
+          value={form.mesaj}
           onChange={guncelle}
         ></textarea>
 
