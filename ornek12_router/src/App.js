@@ -6,6 +6,7 @@ import Iletisim from "./components/Iletisim";
 import Kisiler from "./components/Kisiler";
 import Footer from "./components/Footer";
 import Error from "./components/Error";
+
 function App() {
   return (
     <div className="App">

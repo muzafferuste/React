@@ -5,8 +5,7 @@ function Iletisim() {
   const [form, setForm] = useState({ ad: "", soyad: "", mesaj: "" });
 
   const { ad, soyad, mesaj } = form;
-  console.log("FORM", form);
-
+  
   function guncelle(event) {
     const { name, value } = event.target;
     setForm(() => {

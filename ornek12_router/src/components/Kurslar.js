@@ -4,7 +4,6 @@ import data from "../data/kursData";
 import { Card, Button, Container, Row, Col } from "react-bootstrap";
 
 function Kart(props) {
-  console.log(props);
   const { text, name, img } = data[props.isim];
 
   return (

@@ -7,7 +7,7 @@ function Footer() {
       <Navbar
         fixed="bottom"
         fluid
-        className="justify-content-center bg-dark p-3"
+        className="justify-content-center bg-dark p-1"
       >
         <p className="text-light">Copyright 2021</p>
       </Navbar>

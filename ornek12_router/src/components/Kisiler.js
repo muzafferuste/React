@@ -24,7 +24,7 @@ function Kisiler() {
   if (!hata) {
     return (
       <div className="text-center">
-        <h1>GELİŞTİRİCİLERİMİZ</h1>
+        <h1 className="bg-success">GELİŞTİRİCİLERİMİZ</h1>
         {kisiler.map((kisi) => {
           const { id, login, avatar_url, html_url } = kisi;
           return (

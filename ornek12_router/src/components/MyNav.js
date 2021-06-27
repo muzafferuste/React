@@ -7,8 +7,8 @@ function MyNav() {
   return (
     <div>
       <Navbar className="p-4" bg="light" variant="light" expand="lg">
-        <Navbar.Brand href="#home">
-          <img src={logo} alt="" />
+        <Navbar.Brand href="/">
+          <img src={logo} alt=""/>
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
